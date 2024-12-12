@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/meatballs.html">Meatballs</a>
-    <a href="recipes/cheesecake.html">Cheesecake</a>
+    <main class="grid-container">
+        <header class="header-container">
+            <div class="grid-container header-content">
+                <a id="nav-logo" href="#">Odin Recipes</a>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Who Are We</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero">
+            <div class="center-block">
+                <h3>What To Cook Today</h3>
+                <p>3 different easy recipes</p>
+                <button>See Them All</button>
+            </div>
+        </div>
+        <div>
+            <p><a href="recipes/lasagna.html">Lasagna</a></p>
+            <p><a href="recipes/meatballs.html">Meatballs</a></p>
+            <p><a href="recipes/cheesecake.html">Cheesecake</a></p>
+        </div>
+
+    </main>
 </body>
 </html>
